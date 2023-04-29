@@ -1,0 +1,177 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    font-weight: 600;
+}
+h2 {
+    font-weight: 900;
+}
+p {
+    font-size: .8rem;
+}
+#spacing {
+    padding: 1% 15%;
+}
+
+/* Navigation Section */
+
+.branding {
+    font-weight: 900;
+}
+#navigate{
+    padding: 0 15%;
+}
+.navbar-nav .nav-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .7rem;
+    padding: 0 2px 2px 2px;
+    margin: 10px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    top: 0;
+    border-radius: 5px;
+}
+.navbar-nav .nav-item:hover {
+    background: #009578;
+    color: white;
+}
+
+.button2 {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.button2:hover {
+    background: #008168;
+}
+.button2:active {
+    background: #006e58;
+}
+.button_text,
+.button_icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    height: 100%;
+    font-size: .8rem;
+}
+.button_icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+/* Hero Section */
+.intro-cta {
+    margin-top: 100px;
+}
+.intro-cta a {
+    color: #fff;
+    background-color:#008168 ;
+    text-decoration: none;
+    height: 50px;
+}
+.intro-cta a:hover {
+    background-color:#006e58;
+    box-shadow: 4px 4px  yellow;
+    color: #fff;
+}
+.hire-me {
+    font-size: .8em;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    height: 100%;
+}
+
+/* Projects Section */
+.projects {
+    margin-top: 50px;
+}
+.project-sec {
+    margin-top: 50px;
+}
+.about-project1 {
+    margin-top: 20px;
+}
+.about-project h3:hover {
+    text-decoration: underline;
+}
+.visit-site a{
+    text-decoration: none;
+    color: #009578;
+}
+.visit-site a:hover {
+    text-decoration: underline;
+    color: yellowgreen;
+}
+video {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #302f2f;
+}
+
+
+  
+
+/* Footer Section */
+.footer-info {
+    margin-top: 100px;
+}
+.f-sector {
+    background-color: #008168;
+}
+form {
+    padding: 50px;
+}
+
+.newsletter button{
+    text-decoration: none;
+    background-color: #fff;
+    border: none;
+}
+.subscribe,
+.newsletter {
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.newsletter {
+    background-color:#2f9b85;
+    box-shadow: 4px 4px  yellow;
+    color: #fff;
+}
+.newsletter:hover {
+    background-color:#008168;
+}
+.icons {
+    margin:30px 10px;
+}
+
+/* Other Stuffs Going On lol */
+body {
+    transform: scale(0.5);
+    transition: transform 0.5s ease-in-out;
+    opacity: 0;
+  }
+  
+  body.loaded {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+
+  
+
